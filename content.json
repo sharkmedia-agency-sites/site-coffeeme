@@ -1,5 +1,5 @@
 {
-  "site_name": "jovdim",
+  "site_name": "Trattoria Bella Vista",
   "schema_version": "1.0",
   "sections": [
     {
@@ -8,32 +8,32 @@
       "label": "Navigation",
       "order": 1,
       "fields": {
-        "logo_text": "jovdim",
-        "logo_image": "https://ownvcvrqjdgksdwytskr.supabase.co/storage/v1/object/public/logos/1772876535805-qnfls0.jpg",
+        "logo_text": "Trattoria Bella Vista",
+        "logo_image": "https://ownvcvrqjdgksdwytskr.supabase.co/storage/v1/object/public/logos/1772875743850-alree8.png",
         "links": [
           {
-            "id": "nav_1",
+            "id": "link_1",
             "label": "Domov",
             "url": "#domov"
           },
           {
-            "id": "nav_2",
+            "id": "link_2",
             "label": "O nás",
             "url": "#o-nas"
           },
           {
-            "id": "nav_3",
+            "id": "link_3",
             "label": "Služby",
             "url": "#sluzby"
           },
           {
-            "id": "nav_4",
+            "id": "link_4",
             "label": "Kontakt",
             "url": "#kontakt"
           }
         ],
-        "cta_text": "Zavolajte nám",
-        "cta_url": "tel:123445"
+        "cta_text": "Rezervovať stôl",
+        "cta_url": "tel:+421902345678"
       }
     },
     {
@@ -42,11 +42,11 @@
       "label": "Hero Banner",
       "order": 2,
       "fields": {
-        "headline": "Vaša Dôvera, Naša Priorita",
-        "subheadline": "jovdim the best tagline – Profesionálne právne služby s dlhoročnou skúsenosťou a odhodlaním chrániť vaše záujmy v každej situácii.",
-        "cta_text": "Získajte bezplatnú konzultáciu",
-        "cta_url": "#kontakt",
-        "background_image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80"
+        "headline": "Vitajte v Trattoria Bella Vista",
+        "subheadline": "Autentická talianska kuchyňa od roku 2008 – každé jedlo je láska na tanieri",
+        "cta_text": "Rezervovať stôl",
+        "cta_url": "tel:+421902345678",
+        "background_image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80"
       }
     },
     {
@@ -55,24 +55,24 @@
       "label": "About Section",
       "order": 3,
       "fields": {
-        "headline": "O Nás – jovdim Právna Kancelária",
-        "text": "Sme tím skúsených právnikov so sídlom v meste jovdim, ktorí sa venujú poskytovaniu odborných právnych služieb fyzickým osobám, podnikateľom aj korporáciám. Naša kancelária bola založená s cieľom poskytnúť každému klientovi individuálny prístup, spoľahlivé rady a maximálnu ochranu jeho práv. Veríme, že kvalitné právne zastúpenie by malo byť dostupné pre každého. Naša práca je postavená na dôvere, transparentnosti a odbornosti. Každý prípad riešime s maximálnym nasadením a diskrétnosťou, pretože vaše záujmy sú pre nás na prvom mieste. V právnej kancelárii jovdim nájdete odborníkov v oblasti obchodného, rodinného, trestného práva a práva nehnuteľností. Sme tu pre vás v každom kroku vášho právneho procesu, od prvej konzultácie až po úspešné vyriešenie vášho prípadu.",
-        "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80",
+        "headline": "Naša príbeh a vášeň pre taliansku kuchyňu",
+        "text": "Trattoria Bella Vista je rodinná reštaurácia v srdci Bratislavy, ktorá od roku 2008 prináša hosťom autentické chute Talianska. Naša kuchyňa je inšpirovaná tradičnými receptami z Toskánska, Sicílie a Rima, pripravovanými z čerstvých, lokálnych surovín a importovaných talianskych ingrediencií. Každý pokrm je vytvorený s láskou a rešpektom k talianskej kulinárskej tradícii. Náš šéfkuchár Carlo Ferrero prináša do Bratislavy viac ako 20 rokov skúseností z prestížnych taliansych reštaurácií. Ponúkame dennú zmenu menu, širokú ponuku talianskych vín a nezabudnuteľnú atmosféru, ktorá vás prenesie priamo do slnečného Talianska. Či už hľadáte romantickú večeru, obedné menu alebo priestor pre súkromnú akciu, Trattoria Bella Vista je tým správnym miestom. Naša reštaurácia ponúka teplé prostredie, priateľský personál a kulinárske zážitky, ktoré sa do pamäti vryjú hlboko. Tešíme sa na každého hosťa a radi sa postaráme o to, aby sa u nás cítil ako doma.",
+        "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
         "stats": [
           {
             "id": "stat_1",
-            "value": "15+",
+            "value": "17+",
             "label": "Rokov skúseností"
           },
           {
             "id": "stat_2",
-            "value": "1200+",
-            "label": "Spokojných klientov"
+            "value": "50 000+",
+            "label": "Spokojných hostí"
           },
           {
             "id": "stat_3",
-            "value": "98%",
-            "label": "Úspešnosť prípadov"
+            "value": "120+",
+            "label": "Jedál v ponuke"
           }
         ]
       }
@@ -83,74 +83,76 @@
       "label": "Services",
       "order": 4,
       "fields": {
-        "headline": "Naše Právne Služby",
+        "headline": "Naše služby",
         "items": [
           {
             "id": "svc_1",
-            "title": "Obchodné právo",
-            "description": "Poskytujeme komplexné právne poradenstvo v oblasti obchodného práva – zakladanie spoločností, zmluvy, obchodné spory, fúzie a akvizície. Chráňte svoje podnikanie s našou odbornou pomocou.",
-            "icon": "briefcase",
-            "image": "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=600&q=80"
+            "title": "Denne menu",
+            "description": "Každý pracovný deň pripravujeme čerstvé denné menu s polievkou, hlavným chodom a dezertom za výhodnú cenu. Ideálne pre rýchly, ale kvalitný obed v centre Bratislavy.",
+            "icon": "utensils",
+            "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80"
           },
           {
             "id": "svc_2",
-            "title": "Rodinné právo",
-            "description": "Zastupujeme klientov vo veciach rozvodu, starostlivosti o deti, výživného a dedičstva. Pristupujeme k rodinným prípadom s empatiou a diskrétnosťou, aby sme chránili záujmy celej rodiny.",
-            "icon": "heart",
-            "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80"
+            "title": "Catering",
+            "description": "Zabezpečíme catering pre vaše firemné podujatia, svadby a oslavy. Prinášame autentickú taliansku kuchyňu priamo k vám – čerstvé ingrediencie, profesionálny servis a nezabudnuteľný zážitok.",
+            "icon": "briefcase",
+            "image": "https://images.unsplash.com/photo-1555244162-803834f70033?w=600&q=80"
           },
           {
             "id": "svc_3",
-            "title": "Trestné právo",
-            "description": "Naši právnici zabezpečujú silnú obhajobu v trestných veciach. Či už čelíte obvineniu alebo potrebujete právne zastúpenie, sme pripravení bojovať za vaše práva v každej fáze konania.",
-            "icon": "shield",
-            "image": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=600&q=80"
+            "title": "Rezervácie",
+            "description": "Rezervujte si stôl vopred a zaistite si miesto v našej obľúbenej reštaurácii. Rezerváciu môžete urobiť telefonicky alebo e-mailom – sme tu pre vás Po-Pia 11:00-22:00 a So-Ne 12:00-23:00.",
+            "icon": "clock",
+            "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80"
           },
           {
             "id": "svc_4",
-            "title": "Nehnuteľnosti",
-            "description": "Pomáhame pri kúpe, predaji, prenájme a sporoch týkajúcich sa nehnuteľností. Zabezpečíme, že každá transakcia prebehne bezpečne, legálne a v súlade s platnou legislatívou.",
-            "icon": "home",
-            "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80"
+            "title": "Súkromné akcie",
+            "description": "Ponúkame exkluzívne priestory pre súkromné oslavy, firemné večere, svadby a iné špeciálne príležitosti. Náš tím sa postará o každý detail vrátane menu šitého na mieru.",
+            "icon": "star",
+            "image": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80"
           }
         ]
       }
     },
     {
-      "type": "team",
-      "id": "team_1",
-      "label": "Team",
+      "type": "gallery",
+      "id": "gallery_1",
+      "label": "Gallery",
       "order": 5,
       "fields": {
-        "headline": "Náš Tím Odborníkov",
+        "headline": "Galéria",
         "items": [
           {
-            "id": "team_1",
-            "name": "JUDr. Marek Novák",
-            "role": "Vedúci partner – Obchodné právo",
-            "bio": "JUDr. Marek Novák má viac ako 15 rokov praxe v oblasti obchodného práva. Je uznávaným odborníkom na firemné právo, zmluvy a riešenie obchodných sporov. Jeho klienti oceňujú jeho precíznosť a strategické myslenie.",
-            "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80"
+            "id": "gal_1",
+            "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=800&q=80",
+            "caption": "Čerstvá pasta pripravovaná každý deň"
           },
           {
-            "id": "team_2",
-            "name": "JUDr. Katarína Horváthová",
-            "role": "Partnerka – Rodinné právo",
-            "bio": "JUDr. Katarína Horváthová je špecializovaná na rodinné právo a dedičské konania. S citlivým prístupom a odbornou znalosťou pomáha klientom prekonávať náročné životné situácie s dôstojnosťou a efektivitou.",
-            "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&q=80"
+            "id": "gal_2",
+            "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+            "caption": "Autentická talianska pizza z pece na drevo"
           },
           {
-            "id": "team_3",
-            "name": "Mgr. Tomáš Kováč",
-            "role": "Advokát – Trestné právo",
-            "bio": "Mgr. Tomáš Kováč sa venuje obhajobe v trestných veciach a zastupovaniu poškodených. Jeho rozsiahle skúsenosti v súdnej sieni a hlboká znalosť trestného práva zaručujú klientom silné zastúpenie.",
-            "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80"
+            "id": "gal_3",
+            "image": "https://images.unsplash.com/photo-1551183053-bf91798d756d?w=800&q=80",
+            "caption": "Výber talianskych vín a aperitívov"
           },
           {
-            "id": "team_4",
-            "name": "JUDr. Lucia Procházková",
-            "role": "Advokátka – Nehnuteľnosti",
-            "bio": "JUDr. Lucia Procházková je expertkou na právne aspekty realitných transakcií, katastrálne konania a spory o vlastníctvo. Klientom poskytuje komplexný servis pri každej nehnuteľnostnej transakcii.",
-            "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80"
+            "id": "gal_4",
+            "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+            "caption": "Elegantná atmosféra našej reštaurácie"
+          },
+          {
+            "id": "gal_5",
+            "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
+            "caption": "Šéfkuchárske špeciality z čerstvých surovín"
+          },
+          {
+            "id": "gal_6",
+            "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+            "caption": "Dezerty pripravované s láskou každý deň"
           }
         ]
       }
@@ -161,72 +163,31 @@
       "label": "Testimonials",
       "order": 6,
       "fields": {
-        "headline": "Čo Hovoria Naši Klienti",
+        "headline": "Čo hovoria naši hostia",
         "items": [
           {
             "id": "test_1",
-            "name": "Peter Sloboda",
-            "role": "Podnikateľ, jovdim",
-            "text": "Právna kancelária jovdim mi pomohla vyriešiť zložitý obchodný spor, ktorý trval roky. Vďaka ich profesionalite a nasadeniu sme dosiahli výborný výsledok. Vrelo odporúčam každému podnikateľovi!",
+            "name": "Martina Kováčová",
+            "role": "Pravidelná hosťa",
+            "text": "Trattoria Bella Vista je naša obľúbená reštaurácia pre rodinné večere. Jedlo je vždy čerstvé a plné chuti, obsluha milá a prostredie útulné. Ich pasta carbonara je jednoducho božská – lepšiu som nejedla ani v Ríme!",
             "rating": 5,
-            "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80"
+            "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80"
           },
           {
             "id": "test_2",
-            "name": "Mária Benešová",
-            "role": "Súkromná osoba, jovdim",
-            "text": "Po rozvode som potrebovala pomoc s úpravou starostlivosti o deti. Pani doktorka Horváthová bola nielen odborne zdatná, ale aj ľudsky veľmi empatická. Cítila som sa v bezpečí počas celého procesu.",
+            "name": "Tomáš Horváth",
+            "role": "Firemný zákazník",
+            "text": "Využili sme catering Bella Vista pre náš firemný večierok a všetci hostia boli nadšení. Profesionálny prístup, skvelé jedlo a bezproblémová organizácia. Určite odporúčam každému, kto hľadá kvalitný taliansky catering v Bratislave.",
             "rating": 5,
-            "avatar": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&q=80"
+            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
           },
           {
             "id": "test_3",
-            "name": "Rastislav Mináč",
-            "role": "Investor do nehnuteľností",
-            "text": "Pri kúpe komerčnej nehnuteľnosti som potreboval spoľahlivého právnika. Tím jovdim skontroloval všetky zmluvy, odhalil skryté riziká a zabezpečil bezpečnú transakciu. Ich práca stojí za každý cent!",
+            "name": "Lucia Novotná",
+            "role": "Svadobná hostia",
+            "text": "Svoju svadbu sme mali práve tu a bol to dokonalý zážitok. Personál sa postaral o každý detail, menu bolo úžasné a atmosféra nezabudnuteľná. Naši hostia ešte stále spomínajú na toto jedlo. Ďakujeme celému tímu Bella Vista!",
             "rating": 5,
-            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
-          }
-        ]
-      }
-    },
-    {
-      "type": "faq",
-      "id": "faq_1",
-      "label": "FAQ",
-      "order": 7,
-      "fields": {
-        "headline": "Často Kladené Otázky",
-        "items": [
-          {
-            "id": "faq_1",
-            "question": "Ako si môžem dohodnúť konzultáciu?",
-            "answer": "Konzultáciu si môžete dohodnúť telefonicky na čísle 123445, e-mailom na jovdm.company.sk alebo prostredníctvom kontaktného formulára na našej webstránke. Prvá konzultácia je bezplatná."
-          },
-          {
-            "id": "faq_2",
-            "question": "Koľko stojí právne zastúpenie?",
-            "answer": "Cena právnych služieb závisí od druhu a náročnosti prípadu. Po úvodnej konzultácii vám poskytneme transparentnú cenovú ponuku bez skrytých poplatkov. Pracujeme na základe hodinovej odmeny alebo paušálneho poplatku."
-          },
-          {
-            "id": "faq_3",
-            "question": "Ako dlho trvá riešenie právneho prípadu?",
-            "answer": "Dĺžka riešenia prípadu závisí od jeho komplexnosti a typu konania. Jednoduché zmluvy môžeme pripraviť do niekoľkých dní, zatiaľ čo súdne spory môžu trvať mesiace. Vždy vás budeme priebežne informovať o stave vášho prípadu."
-          },
-          {
-            "id": "faq_4",
-            "question": "Zachováte diskrétnosť mojich informácií?",
-            "answer": "Áno, absolútne. Všetky informácie, ktoré nám zdieľate, sú chránené advokátskou mlčanlivosťou. Vaše osobné a právne záležitosti zostanú prísne dôverné v súlade s platnou legislatívou."
-          },
-          {
-            "id": "faq_5",
-            "question": "Zastupujete klientov aj mimo mesta jovdim?",
-            "answer": "Áno, zastupujeme klientov na celom území Slovenska. Hoci naša kancelária sídli v meste jovdim, nemáme geografické obmedzenia a sme schopní zastupovať klientov na všetkých slovenských súdoch a úradoch."
-          },
-          {
-            "id": "faq_6",
-            "question": "Čo mám priniesť na prvú konzultáciu?",
-            "answer": "Na prvú konzultáciu prineste všetky relevantné dokumenty súvisiace s vaším prípadom – zmluvy, korešpondenciu, rozhodnutia úradov alebo súdov a akékoľvek iné podklady. Čím viac informácií prinesiete, tým presnejšiu radu vám môžeme poskytnúť."
+            "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80"
           }
         ]
       }
@@ -235,47 +196,55 @@
       "type": "contact",
       "id": "contact_1",
       "label": "Contact",
-      "order": 8,
+      "order": 7,
       "fields": {
-        "headline": "Kontaktujte Nás",
-        "text": "Ste pripravení urobiť prvý krok k vyriešeniu vášho právneho problému? Neváhajte nás kontaktovať. Náš tím je k dispozícii pre vaše otázky a bezplatnú úvodnú konzultáciu. Sme tu pre vás.",
-        "phone": "123445",
-        "email": "jovdm.company.sk",
-        "address": "jovdim address",
-        "map_embed_url": "https://maps.google.com/maps?q=jovdim%20address&output=embed"
+        "headline": "Kontaktujte nás",
+        "text": "Radi vám odpovieme na akékoľvek otázky alebo vám pomôžeme s rezerváciou. Navštívte nás v centre Bratislavy a vychutnajte si autentickú taliansku kuchyňu v príjemnej atmosfére.",
+        "phone": "+421 902 345 678",
+        "email": "info@bellavista.sk",
+        "address": "Obchodná 42, 811 06 Bratislava",
+        "opening_hours": "Po-Pia 11:00-22:00, So-Ne 12:00-23:00",
+        "map_embed_url": "https://maps.google.com/maps?q=Obchodn%C3%A1%2042%2C%20811%2006%20Bratislava&output=embed"
       }
     },
     {
       "type": "footer",
       "id": "footer_1",
       "label": "Footer",
-      "order": 9,
+      "order": 8,
       "fields": {
-        "logo_text": "jovdim",
-        "description": "jovdim je dôveryhodná právna kancelária v meste jovdim, poskytujúca odborné právne služby v oblasti obchodného, rodinného, trestného práva a nehnuteľností. Vaše záujmy sú naša priorita.",
+        "logo_text": "Trattoria Bella Vista",
+        "description": "Autentická talianska reštaurácia v srdci Bratislavy. Prinášame vám pravé talianske chute od roku 2008 s láskou a vášňou pre kulinárske umenie.",
         "links": [
           {
-            "id": "footer_nav_1",
+            "id": "flink_1",
             "label": "Domov",
             "url": "#domov"
           },
           {
-            "id": "footer_nav_2",
+            "id": "flink_2",
             "label": "O nás",
             "url": "#o-nas"
           },
           {
-            "id": "footer_nav_3",
+            "id": "flink_3",
             "label": "Služby",
             "url": "#sluzby"
           },
           {
-            "id": "footer_nav_4",
+            "id": "flink_4",
             "label": "Kontakt",
             "url": "#kontakt"
           }
         ],
-        "copyright_text": "© 2026 jovdim. Všetky práva vyhradené."
+        "social_links": [
+          {
+            "id": "social_1",
+            "platform": "instagram",
+            "url": "https://instagram.com/bellavista_ba"
+          }
+        ],
+        "copyright_text": "© 2026 Trattoria Bella Vista"
       }
     }
   ]
